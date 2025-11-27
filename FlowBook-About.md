@@ -23,9 +23,10 @@ The sport desperately needs better self-tracking. But every solution so far has 
 
 ## The Problem
 
-You just finished sparring. You're exhausted, sweaty, probably got choked out once or twice. Last thing you want to do is pull a piece of pen and paper out
-
-Traditional training journals want you to sit down and write paragraphs about your performance. Who has time for that? Most BJJ apps are overcomplicated or require you to remember details you forgot 30 seconds after the round ended.
+You just finished sparring. You're exhausted, sweaty, probably got choked out once or twice. How do you capture this experience and maybe learn from it?
+- Last thing you want to do is pull a piece of pen and paper 
+- You can't have a coach watching your every sparring session and giving you detailed feedback.
+- Wearable tech in BJJ can be hazard 
 
 So people just... don't track. And then they wonder why they're stuck at the same level for months.
 
@@ -50,24 +51,23 @@ Then you get:
 
 **It's designed for fatigued athletes.** Every design decision asks: "would someone who just got armbarred 3 times actually use this?"
 
-30-second timer? Gamifies the speed.  
-Progress bar? Makes it feel less daunting.  
-Auto-submit? Respects your time if you can't finish.  
-Sliders instead of text? Faster and easier than typing.
+The top 4 design elements to reduce friction to log things:
+- 30-second timer --> Gamifies the speed.  
+- Progress bar --> it feel less daunting.  
+- Auto-submit --> Respects your time if you can't finish.  
+- Sliders instead of text --> Faster and easier than typing.
 
 **It targets tech workers who do BJJ.** Silicon Valley is obsessed with BJJ right now (Zuckerberg, half of YC founders, etc.). These people actually care about data and are willing to pay for insights.
 
 **It gives you a mirror, not advice.** BJJ is too vague and situational for an app to tell you "do this move." But it CAN show you patterns you're blind to. Like how you thought you were aggressive but actually you've been playing defense 80% of the time.
 
-**It's built by someone who needs it.** I'm a blue belt on paper, high-level white belt in reality. I live this frustration. I know exactly when someone would pull out their phone post-roll and when they'd say "fuck it, I'm too tired."
+**It's built by someone who needs it.** I'm a blue belt on paper, high-level white belt in reality. I live this frustration.
 
-## The Vision
-
-Right now it's just me building this nights and weekends. I'm a sophomore at UC Davis, I train at Caio Terra, I haven't even passed Data Structures yet. This is my first real product.
+## The Project
 
 **Short-term goal: 75 active users.**
 
-That's it. Not 10,000. Not viral growth. Just 75 people from gyms in Sacramento who log at least once a week for 2+ months.
+That's it. Just 75 people from gyms in Davis + Sacramento who log at least once a week for 2+ months.
 
 If I can prove that people will consistently log their training even when I'm not nagging them, then I know there's something here.
 
@@ -94,11 +94,9 @@ Once this works for BJJ, the same structure applies to wrestling, judo, MMA grap
 
 ## Why I'm Building This Regardless
 
-I need this. Like actually need it.
+I need this.
 
 I'm at that frustrating stage where I can survive most rolls but I don't know how to attack effectively. I know I'm being too passive but I can't articulate what's wrong. I need to see my patterns quantified.
-
-Plus, I'm a data person. My LinkedIn bio says "My passion is converting messy data into intuitive applications" because that's what got me into React—the ability to take clean data structures and turn them into beautiful components.
 
 BJJ is messy. The data is vague. But I think there's signal in the noise.
 
@@ -106,7 +104,7 @@ So even if this never becomes a business, even if I only ever have 10 users (me 
 
 ## What It's Not
 
-This isn't going to be the next unicorn startup. It's not trying to disrupt the combat sports industry. It's not for everyone.
+This isn't  trying to disrupt the combat sports industry. It's not for everyone.
 
 It's for the niche group of grapplers who are analytical about their training, who like data, who want to see if tracking actually helps them improve.
 
