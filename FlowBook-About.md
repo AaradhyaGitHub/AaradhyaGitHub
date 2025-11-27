@@ -3,6 +3,24 @@ A BJJ sparring tracker that doesn't suck.
 
 ---
 
+## Why BJJ Is Different
+
+Brazilian Jiu-Jitsu is a grappling martial art where a smaller person can beat a bigger one using leverage, technique, and timing. You're essentially solving a human puzzle while someone is actively trying to choke you unconscious.
+
+It's also one of the hardest sports to improve at.
+
+Unlike lifting (where you can track weight and reps) or running (where you have pace and distance), BJJ progress is maddeningly vague. You "feel" like you're getting better. Your coach says you're doing fine. But you can't point to a number that proves it.
+
+Most people plateau for months without knowing why. They keep showing up, rolling hard, going home tired—but nothing changes. They're training, not practicing.
+
+The difference? Feedback loops.
+
+In other sports, feedback is built in. You see the weight go up. You see your mile time drop. In BJJ, you just... remember stuff wrong. You think you're aggressive when you're actually defensive. You think you're losing to submissions when you're actually getting swept first.
+
+The sport desperately needs better self-tracking. But every solution so far has been designed by people who've never tried to journal while catching their breath between rounds.
+
+---
+
 ## The Problem
 
 You just finished sparring. You're exhausted, sweaty, probably got choked out once or twice. Your coach says "how'd it go?" and you're like "uh... good I guess?"
@@ -26,7 +44,7 @@ The questions adapt based on whether you won, lost, or drew. If you can't finish
 Then you get:
 - A dashboard showing your win streak, performance trends, and a FIFA-style spider graph of your strengths/weaknesses
 - A "Pokémon card" profile of your grappling style (shareable on Instagram)
-- Insights like "you've been in defensive positions 70% of the time - maybe work on your guard passing?"
+- Insights like "you've been in defensive positions 70% of the time—maybe work on your guard passing?"
 
 ## Why This Might Actually Work
 
@@ -43,7 +61,7 @@ Sliders instead of text? Faster and easier than typing.
 
 **It's built by someone who needs it.** I'm a blue belt on paper, high-level white belt in reality. I live this frustration. I know exactly when someone would pull out their phone post-roll and when they'd say "fuck it, I'm too tired."
 
-## The Vision (Not the Pitch)
+## The Vision
 
 Right now it's just me building this nights and weekends. I'm a sophomore at UC Davis, I train at Caio Terra, I haven't even passed Data Structures yet. This is my first real product.
 
@@ -55,7 +73,7 @@ If I can prove that people will consistently log their training even when I'm no
 
 **Medium-term: Make the profile cards shareable.**
 
-The real distribution play isn't ads - it's people posting their "grappler profile" on Instagram. If I can make it look cool enough (Robinhood-style minimal UI, clean data viz), people will share it.
+The real distribution play isn't ads—it's people posting their "grappler profile" on Instagram. If I can make it look cool enough (Robinhood-style minimal UI, clean data viz), people will share it.
 
 Think Spotify Wrapped but for BJJ. "This year I logged 240 spars, hit 47 submissions, and my guard game improved 32%."
 
@@ -66,7 +84,7 @@ Once I have 75 people logging consistently, I'll have thousands of data points a
 At that point, I can:
 - Use GPT to generate personalized training suggestions based on your data
 - Show you "people with similar stats focus on X and see improvement"
-- Identify patterns like "you get swept more when you're tired - your round 4 defense drops 40%"
+- Identify patterns like "you get swept more when you're tired—your round 4 defense drops 40%"
 
 I don't need to build my own ML model. I just need clean data and thoughtful prompts to GPT. That's the unlock.
 
@@ -80,7 +98,7 @@ I need this. Like actually need it.
 
 I'm at that frustrating stage where I can survive most rolls but I don't know how to attack effectively. I know I'm being too passive but I can't articulate what's wrong. I need to see my patterns quantified.
 
-Plus, I'm a data person. My LinkedIn bio says "My passion is converting messy data into intuitive applications" because that's what got me into React - the ability to take clean data structures and turn them into beautiful components.
+Plus, I'm a data person. My LinkedIn bio says "My passion is converting messy data into intuitive applications" because that's what got me into React—the ability to take clean data structures and turn them into beautiful components.
 
 BJJ is messy. The data is vague. But I think there's signal in the noise.
 
@@ -96,7 +114,6 @@ If that's 75 people, cool. If it's 500, even better. If it stays at 20, then it'
 
 I'm building this to solve my own problem and see if anyone else cares. That's it.
 
-Version 3.75 demo: 
 ---
 
 ## The Technical Stuff
@@ -176,5 +193,6 @@ If you read this far and you're genuinely interested (not just being polite), hi
 
 I appreciate your time. 
 - Aaradhya
+
 ---
-*Last updated: November 2025*  
+*Last updated: November 2025*
