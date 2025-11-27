@@ -23,7 +23,7 @@ The sport desperately needs better self-tracking. But every solution so far has 
 
 ## The Problem
 
-You just finished sparring. You're exhausted, sweaty, probably got choked out once or twice. Your coach says "how'd it go?" and you're like "uh... good I guess?"
+You just finished sparring. You're exhausted, sweaty, probably got choked out once or twice. Last thing you want to do is pull a piece of pen and paper out
 
 Traditional training journals want you to sit down and write paragraphs about your performance. Who has time for that? Most BJJ apps are overcomplicated or require you to remember details you forgot 30 seconds after the round ended.
 
