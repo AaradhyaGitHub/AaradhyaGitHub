@@ -94,13 +94,10 @@ Once this works for BJJ, the same structure applies to wrestling, judo, MMA grap
 
 ## Why I'm Building This Regardless
 
-I need this.
-
-I'm at that frustrating stage where I can survive most rolls but I don't know how to attack effectively. I know I'm being too passive but I can't articulate what's wrong. I need to see my patterns quantified.
+I could use this and I want to see if insight can be gathered from something as chaotic as two people rolling on mats.
 
 BJJ is messy. The data is vague. But I think there's signal in the noise.
 
-So even if this never becomes a business, even if I only ever have 10 users (me and my training partners), I'm still building it. Because I want to see if I can extract insight from something as chaotic as two people rolling on mats.
 
 ## What It's Not
 
@@ -119,7 +116,7 @@ I'm building this to solve my own problem and see if anyone else cares. That's i
 For people who code:
 
 **Stack:**
-- React Native (JavaScript, not TypeScript)
+- React Native (JavaScript)
 - Firebase Realtime Database
 - Context API for state management
 - React Navigation (Stack + Bottom Tabs)
@@ -128,7 +125,7 @@ For people who code:
 
 **Architecture:**
 
-The interesting part is the questionnaire system. Instead of a boring form, it's a horizontal carousel where each question is a full-screen slide. Like onboarding flows but for data input.
+Questionnaire system: Instead of a boring form, it's a horizontal carousel where each question is a full-screen slide. Like onboarding flows but for data input.
 
 Each question type (slider, MCQ, numerical input) is a different component rendered based on question metadata. The answer state bubbles up from `QuestionnaireItem` → `Questionnaire` → `SparForm` → Firebase.
 
@@ -151,7 +148,7 @@ The trend calculation compares last 7 days vs previous 7 days win percentage to 
 
 **Design decisions:**
 
-I removed 50+ complex questions that required users to search through databases of submissions, positions, and takedowns. Saved those in a `/legacy` folder for when I build the search UI later.
+Removed 50+ complex questions that required users to search through databases of submissions, positions, and takedowns. Saved those in a `/legacy` folder for the search UI that will be built later.
 
 Current version is just 14 questions per spar (8 ROUNDINFO + 6 result-specific), all simple inputs. Fast to answer, low friction.
 
@@ -163,8 +160,8 @@ Dates are stored as ISO strings with timestamps (`2025-11-25T04:02:44.787Z`), no
 - Section headers on slides ("ROUND INFO", "TAKEDOWNS", etc.)
 - Progress counter (Question 5/14)
 - Spider graph visualization (probably react-native-chart-kit or victory-native)
-- Store raw answers in Firebase (for edit mode later)
-- User authentication (have a separate login system in another repo, need to integrate)
+- Store raw answers in Firebase (for edit mode later)✅Implemented
+- User authentication (have a separate login system in another repo, need to integrate) ✅Implemented
 - Better rating algorithm (currently just averages 2 sliders, should use 10-15 data points)
 
 **What I'm NOT doing:**
@@ -173,21 +170,19 @@ Dates are stored as ISO strings with timestamps (`2025-11-25T04:02:44.787Z`), no
 - Social features yet (profile sharing comes after core product works)
 - Perfecting everything (ship 80% solutions, iterate based on feedback)
 
-The philosophy is: build the simplest thing that solves the problem, get it in people's hands, learn what actually matters, then iterate. Classic lean startup but applied to something as niche as BJJ tracking.
-
+The plan is: build the simplest thing that solves the problem, get it in people's hands, learn what actually matters, then iterate. 
 I'm treating this like a learning project that might become something more. Not the other way around.
 
 ---
 
 **Current status:** Building Session 3. About to add spider graphs and polish the dashboard.
 
-**Timeline:** Finish v1 in next 4-6 weeks. Get 10-20 gym members using it. See if they come back without me nagging them. Then decide if it's worth continuing.
+**Timeline:** Finish v1 in next 4-6 weeks. Get 10-20 gym members using it. See if they come back without having to nag them. Then decide if it's worth continuing.
 
-**Repo:** Private for now. Will open-source eventually once it's more polished.
-
+**Repo:** Private for now.
 ---
 
-If you read this far and you're genuinely interested (not just being polite), hit me up. I'm not looking for investment or co-founders right now. Just curious if this resonates with anyone else. And if you train BJJ and want to try it when it's ready, let me know. I need real users who will tell me when it sucks.
+If you read this far and you're genuinely interested (not just being polite), hit me up. I'm not looking for feedbacks and helping hands. Just curious if this resonates with anyone else. And if you train BJJ and want to try it when it's ready, let me know. I need real users who will tell me when it sucks.
 
 I appreciate your time. 
 - Aaradhya
