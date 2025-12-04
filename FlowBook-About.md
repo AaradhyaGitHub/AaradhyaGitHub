@@ -1,5 +1,5 @@
 # FlowBook
-A BJJ sparring tracker that doesn't suck.
+Digitizing BJJ Sparring Matches
 
 ---
 
