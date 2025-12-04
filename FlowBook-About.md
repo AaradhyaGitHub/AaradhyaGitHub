@@ -67,26 +67,26 @@ The top 4 design elements to reduce friction to log things:
 
 **Short-term goal: 75 active users.**
 
-That's it. Just 75 people from gyms in Davis + Sacramento who log at least once a week for 2+ months.
+Just 75 people from gyms in Davis + Sacramento who log at least once a week for 2+ months.
 
-If I can prove that people will consistently log their training even when I'm not nagging them, then I know there's something here.
+If people will consistently log their training, then there's something here.
 
 **Medium-term: Make the profile cards shareable.**
 
-The real distribution play isn't ads—it's people posting their "grappler profile" on Instagram. If I can make it look cool enough (Robinhood-style minimal UI, clean data viz), people will share it.
+The real distribution play isn't ads—it's people posting their "grappler profile" on Instagram. It needs to look cool enough (Robinhood-style minimal UI, clean data viz), people will share it.
 
 Think Spotify Wrapped but for BJJ. "This year I logged 240 spars, hit 47 submissions, and my guard game improved 32%."
 
 **Long-term: Add some intelligence.**
 
-Once I have 75 people logging consistently, I'll have thousands of data points about what works and what doesn't in training.
+If there are 75 people logging consistently, that's thousands of data points about what works and what doesn't in training.
 
-At that point, I can:
+At that point, possibly:
 - Use GPT to generate personalized training suggestions based on your data
 - Show you "people with similar stats focus on X and see improvement"
 - Identify patterns like "you get swept more when you're tired—your round 4 defense drops 40%"
 
-I don't need to build my own ML model. I just need clean data and thoughtful prompts to GPT. That's the unlock.
+No need to build a ML model from scratch just yet. Just need clean data and thoughtful prompts to GPT.
 
 **Eventually: Expand to other grappling sports.**
 
@@ -95,7 +95,6 @@ Once this works for BJJ, the same structure applies to wrestling, judo, MMA grap
 ## Why I'm Building This Regardless
 
 I could use this and I want to see if insight can be gathered from something as chaotic as two people rolling on mats.
-
 BJJ is messy. The data is vague. But I think there's signal in the noise.
 
 
@@ -104,8 +103,6 @@ BJJ is messy. The data is vague. But I think there's signal in the noise.
 This isn't  trying to disrupt the combat sports industry. It's not for everyone.
 
 It's for the niche group of grapplers who are analytical about their training, who like data, who want to see if tracking actually helps them improve.
-
-If that's 75 people, cool. If it's 500, even better. If it stays at 20, then it's a great portfolio project that got me hired somewhere.
 
 I'm building this to solve my own problem and see if anyone else cares. That's it.
 
