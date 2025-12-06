@@ -179,7 +179,7 @@ I'm treating this like a learning project that might become something more. Not 
 **Repo:** Private for now.
 ---
 
-If you read this far and you're genuinely interested (not just being polite), hit me up. I'm not looking for feedbacks and helping hands. Just curious if this resonates with anyone else. And if you train BJJ and want to try it when it's ready, let me know. I need real users who will tell me when it sucks.
+If you read this far and you're genuinely interested (not just being polite), hit me up. I'm looking for feedbacks and helping hands. Just curious if this resonates with anyone else. And if you train BJJ and want to try it when it's ready, let me know. I need real users who will tell me when it sucks.
 
 I appreciate your time. 
 - Aaradhya
